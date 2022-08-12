@@ -30,7 +30,7 @@ area = 20*sqrt(2)
 
 while True:
     # Gerar um ponto na reta (para a questão, use t = 8.615)
-    t = float('t = input()')
+    t = float(input('t= '))
     (ponto_interesse_x, ponto_interesse_y, ponto_interesse_z) = (ponto_reta_x+t*vetor_dir_x, ponto_reta_y +
                                                                  t*vetor_dir_y, ponto_reta_z+t*vetor_dir_z)
     # Gerar o lado do triângulo
